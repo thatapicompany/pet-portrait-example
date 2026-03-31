@@ -1,0 +1,44 @@
+{
+  "genealogy": {
+    "is_mixed_breed": false,
+    "mixed_breed_reasoning": "The dog exhibits classic, hallmark features of a purebred German Shepherd. The distinctive black and tan saddle pattern, erect pointed ears, strong and muscular build, and characteristic facial structure strongly indicate a single breed lineage without obvious physical traits from other breeds.",
+    "primary_breed": {
+      "confidence": 0.985,
+      "id": "115",
+      "label": "German Shepherd"
+    },
+    "secondary_breed": {
+      "confidence": 0.008,
+      "id": "36",
+      "label": "Belgian Malinois"
+    },
+    "tertiary_breed": {
+      "confidence": 0.004,
+      "id": "225",
+      "label": "Shiloh Shepherd"
+    },
+    "breed_probabilities": {
+      "confidences": [
+        0.985,
+        0.008,
+        0.004
+      ],
+      "ids": [
+        "115",
+        "36",
+        "225"
+      ],
+      "labels": [
+        "German Shepherd",
+        "Belgian Malinois",
+        "Shiloh Shepherd"
+      ]
+    }
+  },
+  "creative_descriptions": {
+    "fun_description": "With a coat that looks like it's straight out of a classic movie and ears that can hear a treat wrapper from a mile away, this loyal companion is the perfect mix of majestic and adorable. Always alert and ready for the next backyard adventure!",
+    "fun_caption": "Radar ears fully deployed and ready for action! \ud83d\udce1\ud83d\udc3e",
+    "happy_sentence": "Just looking at this proud, intelligent pup standing tall in the grass is enough to bring a big smile to anyone's face.",
+    "breed_fact": "German Shepherds are renowned for their incredible intelligence and trainability, making them highly sought after for police, military, and search-and-rescue roles worldwide."
+  }
+}
