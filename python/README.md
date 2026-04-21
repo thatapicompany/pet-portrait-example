@@ -34,12 +34,12 @@ The follow table summarizes the portrait-related endpoints demonstrated in this 
 
 | Operation | Method | URL | Description |
 | :--- | :--- | :--- | :--- |
+| **Check Pet** | `GET` | `/v1/pets?sub_id={id}` | Checks if a pet already exists using its `sub_id`. |
 | **Create Pet** | `POST` | `/v1/pets` | Creates a pet record and uploads multiple images in one multipart request. |
-| **Analyze** | `POST` | `/v1/pets/{id}/{module}` | Runs physical analyses (e.g. `estimated-age`, `body-condition-score`). |
-| **Request Portrait** | `POST` | `/v1/pets/{id}/portrait` | Triggers the generation of an artistic portrait. Supports styles like `studio`, `pencil_sketch`, `professional`, and `oil_painting`. |
-| **Check Status** | `GET` | `/v1/pets/{id}/portrait/{pid}`| (Optional) Check the status of a long-running generation. |
-| **Get Styles** | `GET` | `/v1/pets/portrait-styles` | Lists available artistic styles. |
-| **Upload Image** | `POST` | `/v1/images/upload-sync` | Alternative way to upload a single image synchronously. |
+| **Add Images** | `POST` | `/v1/pets/{id}/images` | Uploads additional images to an existing pet profile. |
+| **Analyze** | `POST` | `/v1/pets/{id}/{module}` | Runs physical analyses: `genealogy`, `estimated-age`, `body-condition-score`, `muscle-condition-score`. |
+| **Health Tips** | `GET` | `/v1/health-tips` | Retrieves breed-specific recommendations using the breed ID from genealogy analysis. |
+| **Request Portrait** | `POST` | `/v1/pets/{id}/portrait` | Triggers the generation of an artistic portrait. Supports styles like `studio`, `pencil_sketch`, `watercolour`, `oil_painting`, and `july_4th`. |
 
 ---
 
@@ -55,7 +55,7 @@ The follow table summarizes the portrait-related endpoints demonstrated in this 
 1. **Automatic Discovery**: The script scans `../test-images/dogs/` for subfolders. Each folder name is used as the `pet_name` and `sub_id`.
 2. **Bulk Upload**: For each folder, it collects all valid image files and uploads them in a single `multipart/form-data` request when creating the pet profile.
 3. **Organized Outputs**: Analysis results and portraits are saved in dedicated subfolders within `output-data/` and `output-portraits/`, matching the source folder name.
-4. **Multi-Style Portraits**: It generates four artistic styles (`studio`, `pencil_sketch`, `professional`, `oil_painting`) for every discovered pet.
+4. **Multi-Style Portraits**: It generates five artistic styles (`studio`, `pencil_sketch`, `watercolour`, `oil_painting`, `july_4th`) for every discovered pet.
 
 ---
 

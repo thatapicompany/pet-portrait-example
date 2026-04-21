@@ -1,0 +1,44 @@
+{
+  "genealogy": {
+    "primary_breed": {
+      "id": "115",
+      "label": "German Shepherd",
+      "confidence": 0.98
+    },
+    "is_mixed_breed": false,
+    "tertiary_breed": {
+      "id": "225",
+      "label": "Shiloh Shepherd",
+      "confidence": 0.01
+    },
+    "secondary_breed": {
+      "id": "36",
+      "label": "Belgian Malinois",
+      "confidence": 0.01
+    },
+    "breed_probabilities": {
+      "ids": [
+        "115",
+        "36",
+        "225"
+      ],
+      "labels": [
+        "German Shepherd",
+        "Belgian Malinois",
+        "Shiloh Shepherd"
+      ],
+      "confidences": [
+        0.98,
+        0.01,
+        0.01
+      ]
+    },
+    "mixed_breed_reasoning": "The dog displays a very consistent and classic set of morphological traits characteristic of a purebred German Shepherd, including the black and tan saddle pattern, large erect ears, a strong square muzzle, and a robust, athletic build. There are no obvious signs of other breeds mixed in."
+  },
+  "creative_descriptions": {
+    "breed_fact": "German Shepherds are widely considered one of the most intelligent dog breeds in the world, capable of learning a new command in just a few repetitions and obeying the first command 95% of the time.",
+    "fun_caption": "Reporting for duty! Also, did someone say 'walk'?",
+    "happy_sentence": "Looking into those intelligent, soulful eyes just makes my day instantly better!",
+    "fun_description": "This majestic pup sports a striking black and tan coat and ears that act as satellite dishes for the sound of cheese wrappers opening. Always alert and fiercely loyal, this dog is the ultimate companion for both outdoor adventures and cozy nights in."
+  }
+}

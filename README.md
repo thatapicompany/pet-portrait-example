@@ -29,10 +29,14 @@ Follow the instructions in [python/README.md](python/README.md) to set up your e
 ## 📖 API Documentation
 
 The example interacts with the following endpoints:
+- `GET /v1/pets`: Search for existing pet profiles.
 - `POST /v1/pets`: Create a pet profile.
 - `POST /v1/pets/{id}/images`: Upload images to a pet profile.
 - `POST /v1/pets/{id}/portrait`: Generate an AI portrait.
 - `POST /v1/pets/{id}/genealogy`: Analyze breed and genealogy.
-- `POST /v1/pets/{id}/body-condition-score`: Analyze BCS.
+- `POST /v1/pets/{id}/body-condition-score`: Analyze Body Condition Score (BCS).
+- `POST /v1/pets/{id}/estimated-age`: Analyze estimated age.
+- `POST /v1/pets/{id}/muscle-condition-score`: Analyze Muscle Condition Score (MCS).
+- `GET /v1/health-tips`: Retrieve breed-specific health recommendations.
 
 For more details on the API, visit [TheDogAPI Documentation](https://docs.thedogapi.com).
