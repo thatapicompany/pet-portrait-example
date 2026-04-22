@@ -1,28 +1,22 @@
 {
   "genealogy": {
-    "is_mixed_breed": false,
-    "mixed_breed_reasoning": "The cat displays classic purebred characteristics, including a large, substantial build, semi-long silky coat, distinct colorpoint pattern with a white chin, chest, and 'mitts' on the paws, and striking blue eyes. There are no obvious traits suggesting a mix.",
     "primary_breed": {
-      "confidence": 0.95,
       "id": "ragd",
-      "label": "Ragdoll"
+      "label": "Ragdoll",
+      "confidence": 0.92
+    },
+    "is_mixed_breed": false,
+    "tertiary_breed": {
+      "id": "hima",
+      "label": "Himalayan",
+      "confidence": 0.02
     },
     "secondary_breed": {
-      "confidence": 0.03,
       "id": "birm",
-      "label": "Birman"
-    },
-    "tertiary_breed": {
-      "confidence": 0.02,
-      "id": "hima",
-      "label": "Himalayan"
+      "label": "Birman",
+      "confidence": 0.06
     },
     "breed_probabilities": {
-      "confidences": [
-        0.95,
-        0.03,
-        0.02
-      ],
       "ids": [
         "ragd",
         "birm",
@@ -32,13 +26,19 @@
         "Ragdoll",
         "Birman",
         "Himalayan"
+      ],
+      "confidences": [
+        0.92,
+        0.06,
+        0.02
       ]
-    }
+    },
+    "mixed_breed_reasoning": "The feline exhibits textbook characteristics of a purebred Ragdoll, including the striking blue eyes, semi-long silky coat with a mitted colorpoint pattern, and a large, robust frame."
   },
   "creative_descriptions": {
-    "fun_description": "This majestic feline is a cloud of soft, silky fur with mesmerizing sapphire eyes and adorable white 'mittens'. Known for their laid-back and affectionate nature, they are as cuddly as they look.",
-    "fun_caption": "Just a fluffy cloud with paws, judging you softly.",
-    "happy_sentence": "Ready for endless snuggles and gentle purrs!",
-    "breed_fact": "Ragdolls earned their name because they have a tendency to go limp and relax completely when picked up, just like a child's ragdoll."
+    "breed_fact": "Ragdolls are famous for their docile, easygoing temperament and their quirky trait of going completely limp and relaxed when picked up.",
+    "fun_caption": "Feline fine and looking divine! Just a fluffy cloud with paws.",
+    "happy_sentence": "Every day is a perfect day when it starts with a gentle headbutt and a soft purr from this sweet companion.",
+    "fun_description": "With a coat like spun silk and eyes like glittering sapphires, this magnificent feline looks like royalty wrapped in a fluffy cloud. Complete with elegant white mittens, they are always ready for a glamorous portrait or a cozy snuggle."
   }
 }

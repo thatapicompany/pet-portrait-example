@@ -2,3 +2,5 @@ python/venv/
 python/.env
 test-images/.DS_Store
 test-images/cats/ragdoll/.DS_Store
+test-images/dogs/.DS_Store
+.DS_Store

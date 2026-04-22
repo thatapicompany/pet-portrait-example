@@ -248,7 +248,7 @@ def main():
     ]
     
     # Supported Analysis Modules
-    analysis_modules = ["genealogy", "body-condition-score", "estimated-age", "muscle-condition-score"]
+    analysis_modules = ["genealogy", "body-condition-score", "estimated-age", "estimated-weight", "muscle-condition-score"]
 
     for config in animals_config:
         api_url = config["api_url"]

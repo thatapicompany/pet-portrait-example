@@ -37,7 +37,7 @@ The follow table summarizes the portrait-related endpoints demonstrated in this 
 | **Check Pet** | `GET` | `/v1/pets?sub_id={id}` | Checks if a pet already exists using its `sub_id`. |
 | **Create Pet** | `POST` | `/v1/pets` | Creates a pet record and uploads multiple images in one multipart request. |
 | **Add Images** | `POST` | `/v1/pets/{id}/images` | Uploads additional images to an existing pet profile. |
-| **Analyze** | `POST` | `/v1/pets/{id}/{module}` | Runs physical analyses: `genealogy`, `estimated-age`, `body-condition-score`, `muscle-condition-score`. |
+| **Analyze** | `POST` | `/v1/pets/{id}/{module}` | Runs physical analyses: `genealogy`, `estimated-age`, `estimated-weight`, `body-condition-score`, `muscle-condition-score`. |
 | **Health Tips** | `GET` | `/v1/health-tips` | Retrieves breed-specific recommendations using the breed ID from genealogy analysis. |
 | **Request Portrait** | `POST` | `/v1/pets/{id}/portrait` | Triggers the generation of an artistic portrait. Supports styles like `studio`, `pencil_sketch`, `watercolour`, `oil_painting`, and `july_4th`. |
 

@@ -1,0 +1,44 @@
+{
+  "genealogy": {
+    "is_mixed_breed": false,
+    "mixed_breed_reasoning": "The dog possesses highly recognizable physical traits consistent with a purebred Cocker Spaniel. These include the prominent, long, pendulous ears covered in wavy hair, a well-developed, square muzzle, and large, dark, expressive eyes set in a gently contoured head. The solid, rich golden-red coat is also a classic presentation for the breed.",
+    "primary_breed": {
+      "confidence": 0.94,
+      "id": "86",
+      "label": "Cocker Spaniel"
+    },
+    "secondary_breed": {
+      "confidence": 0.04,
+      "id": "108",
+      "label": "Field Spaniel"
+    },
+    "tertiary_breed": {
+      "confidence": 0.02,
+      "id": "87",
+      "label": "American Cocker Spaniel"
+    },
+    "breed_probabilities": {
+      "confidences": [
+        0.94,
+        0.04,
+        0.02
+      ],
+      "ids": [
+        "86",
+        "108",
+        "87"
+      ],
+      "labels": [
+        "Cocker Spaniel",
+        "Field Spaniel",
+        "American Cocker Spaniel"
+      ]
+    }
+  },
+  "creative_descriptions": {
+    "fun_description": "With ears that could double as glamorous, wavy hair extensions and big, soulful eyes that demand endless treats, this elegant canine is a certified heartbreaker. Look at that majestic golden coat!",
+    "fun_caption": "Practicing my best 'puppy dog eyes' to see if it earns me extra dinner. \ud83e\udd7a\u2728",
+    "happy_sentence": "I can't wait to bound through some tall grass on a sunny day and then snuggle up right next to you on the couch!",
+    "breed_fact": "The name 'Cocker' in Cocker Spaniel originates from the breed's historical use in the UK specifically to hunt a game bird known as the Eurasian woodcock."
+  }
+}

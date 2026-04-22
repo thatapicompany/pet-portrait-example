@@ -1,0 +1,44 @@
+{
+  "genealogy": {
+    "primary_breed": {
+      "id": "115",
+      "label": "German Shepherd",
+      "confidence": 0.45
+    },
+    "is_mixed_breed": true,
+    "tertiary_breed": {
+      "id": "21",
+      "label": "Australian Cattle Dog",
+      "confidence": 0.15
+    },
+    "secondary_breed": {
+      "id": "149",
+      "label": "Labrador Retriever",
+      "confidence": 0.35
+    },
+    "breed_probabilities": {
+      "ids": [
+        "115",
+        "149",
+        "21"
+      ],
+      "labels": [
+        "German Shepherd",
+        "Labrador Retriever",
+        "Australian Cattle Dog"
+      ],
+      "confidences": [
+        0.45,
+        0.35,
+        0.15
+      ]
+    },
+    "mixed_breed_reasoning": "This dog exhibits a blend of traits that point toward a mixed heritage. The prominent, erect ears and athletic, slightly rectangular frame strongly suggest a German Shepherd influence. However, the shorter, uniform light tan coat and broad skull shape often come from mixing with breeds like Labrador Retrievers or Australian Cattle Dogs, creating a uniquely handsome 'dingo-like' appearance."
+  },
+  "creative_descriptions": {
+    "breed_fact": "German Shepherds are widely considered one of the most intelligent and versatile dog breeds in the world, frequently employed in search and rescue, police and military roles, and as deeply loyal family companions.",
+    "fun_caption": "King of the hill, surveyor of the golden plains! \u26f0\ufe0f\ud83d\udc15",
+    "happy_sentence": "With ears perked high and a bright, eager gaze, this wonderful dog turns every hike into an unforgettable, joy-filled journey.",
+    "fun_description": "Meet this adventurous golden explorer! Whether surveying the dry grasslands from atop a boulder or posing for a beautiful watercolor portrait, this pup brings a majestic energy to the great outdoors."
+  }
+}

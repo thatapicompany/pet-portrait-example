@@ -36,6 +36,7 @@ The example interacts with the following endpoints:
 - `POST /v1/pets/{id}/genealogy`: Analyze breed and genealogy.
 - `POST /v1/pets/{id}/body-condition-score`: Analyze Body Condition Score (BCS).
 - `POST /v1/pets/{id}/estimated-age`: Analyze estimated age.
+- `POST /v1/pets/{id}/estimated-weight`: Analyze estimated weight.
 - `POST /v1/pets/{id}/muscle-condition-score`: Analyze Muscle Condition Score (MCS).
 - `GET /v1/health-tips`: Retrieve breed-specific health recommendations.
 
